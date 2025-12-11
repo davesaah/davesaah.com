@@ -1,0 +1,15 @@
+default:
+  image: ruby:3.3
+  before_script:
+    - gem install bundler
+    - bundle install --path vendor
+  cache:
+    paths:
+      - vendor/
+
+create-pages:
+  stage: deploy
+  script:
+    - bundle exec jekyll build -d public
+  pages: true # specifies that this is a Pages job and publishes the default public directory
+  environment: production
