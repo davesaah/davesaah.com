@@ -1,3 +1,7 @@
+variables:
+  GIT_SUBMODULE_STRATEGY: normal
+  GIT_SUBMODULE_DEPTH: 1
+
 default:
   image: ruby:3.3
   before_script:
