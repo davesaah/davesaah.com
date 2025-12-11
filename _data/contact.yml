@@ -4,9 +4,8 @@
   icon: "fab fa-linkedin" # icons powered by <https://fontawesome.com/>
   url: "https://linkedin.com/in/davesaah" # Fill with your Linkedin homepage
 
-- type: gitlab
-  icon: "fab fa-gitlab" # icons powered by <https://fontawesome.com/>
-  url: "https://gitlab.com/davesaah" # Fill with your Linkedin homepage
+- type: github
+  icon: "fab fa-github" # icons powered by <https://fontawesome.com/>
 
 - type: email
   icon: "fas fa-envelope"

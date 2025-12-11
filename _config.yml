@@ -25,11 +25,20 @@ description: >- # used by seo meta and the atom feed
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
 url: "https://davesaah.com"
 
+github:
+  username: davesaah # change to your GitHub username
+
+twitter:
+  username: DaveSaahTweets # change to your Twitter username
+
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: David Saah
   email: dave@davesaah.com # change to your email address
+  links:
+    - https://twitter.com/DaveSaahTweets # change to your Twitter homepage
+    - https://github.com/davesaah # change to your GitHub homepage
 
 # Site Verification Settings
 webmaster_verifications:
