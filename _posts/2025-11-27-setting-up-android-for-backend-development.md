@@ -3,7 +3,7 @@ layout: post
 title: Setting Up Android For Backend Development
 date: 2025-11-27 19:33 +0000
 categories: [Configuration]
-tags: [linux, termux]
+tags: [linux, termux, android]
 description: Find out how to build software on android without a laptop
 toc: true
 media_subpath: /assets/post/setting-up-android-for-backend-development/
