@@ -2,10 +2,11 @@
 
 - type: linkedin
   icon: "fab fa-linkedin" # icons powered by <https://fontawesome.com/>
-  url: "https://linkedin.com/in/davesaah" # Fill with your Linkedin homepage
+  url: "https://linkedin.com/in/davesaah"
 
-- type: github
-  icon: "fab fa-github" # icons powered by <https://fontawesome.com/>
+- type: codeberg
+  icon: "fab fa-git-alt" # icons powered by <https://fontawesome.com/>
+  url: "https://codeberg.org/davesaah"
 
 - type: twitter
   icon: "fa-brands fa-x-twitter"
