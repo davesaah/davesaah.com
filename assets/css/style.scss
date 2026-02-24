@@ -1,0 +1,43 @@
+/* Project Card - Chirpy Monotone Style */
+.project-card {
+  background-color: var(--card-bg);
+  border: 1px solid var(--main-border-color);
+  transition: all 0.25s ease-in-out;
+
+  &:hover {
+    transform: translateX(4px);
+    border-color: var(--link-color) !important;
+
+    /* Subtle highlight to the monotone icon on hover */
+    .project-icon-wrapper {
+      color: var(--link-color) !important;
+    }
+  }
+}
+
+.year-header {
+  border-bottom: 1px solid var(--main-border-color);
+  color: var(--heading-color);
+}
+
+.project-icon-wrapper {
+  display: inline-block;
+  width: 1.5rem;
+  text-align: center;
+  /* Soft monotone color */
+  color: var(--text-muted-color);
+}
+
+.project-title-link {
+  color: var(--heading-color);
+  text-decoration: none;
+  &:hover {
+    color: var(--link-color);
+  }
+}
+
+.badge.uppercase {
+  font-size: 0.65rem;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}

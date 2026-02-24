@@ -1,0 +1,70 @@
+- title: Family Journal
+  date: 2026-02-10
+  type: website # ["linux config", "cli tool", "code", "exploration", "book", "website"]
+  description: >-
+    A shared family journal application.
+  url: https://codeberg.org/davesaah/journal
+
+- title: The Prayer Wall
+  date: 2026-02-11
+  type: website
+  description: >-
+    A web application for prayer requests and wall of prayer.
+  url: https://codeberg.org/davesaah/prayerwall
+
+- title: Kitty
+  date: 2026-02-13
+  type: linux config
+  description: >-
+    My kitty terminal configuration.
+  url: https://codeberg.org/davesaah/kitty
+
+- title: Tmux
+  date: 2026-02-13
+  type: linux config
+  description: >-
+    My tmux configuration.
+  url: https://codeberg.org/davesaah/tmux
+
+- title: Nvim
+  date: 2024-03-05
+  type: linux config
+  description: >-
+    My neovim configuration.
+  url: https://codeberg.org/davesaah/nvim
+
+- title: Nix OS
+  date: 2025-03-28
+  type: linux config
+  description: >-
+    My Nix OS configuration.
+  url: https://codeberg.org/davesaah/nix-os
+
+- title: Fatch
+  date: 2025-09-24
+  type: code
+  description: >-
+    A robust API for tracking your money, fetching insights on spending
+    and budgeting effectively.
+  url: https://codeberg.org/davesaah/fatch
+
+- title: Rofi
+  date: 2026-02-13
+  type: linux config
+  description: >-
+    My rofi configuration.
+  url: https://codeberg.org/davesaah/rofi
+
+- title: Waybar
+  date: 2026-02-13
+  type: linux config
+  description: >-
+    My waybar configuration.
+  url: https://codeberg.org/davesaah/waybar
+
+- title: Some
+  date: 2026-02-09
+  type: cli tool
+  description: >-
+    Some programming language
+  url: https://codeberg.org/davesaah/some

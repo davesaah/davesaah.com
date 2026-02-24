@@ -1,0 +1,69 @@
+---
+layout: page
+---
+
+{% include lang.html %}
+
+<div class="projects-wrapper mt-4">
+  {% assign projects = site.data.projects | sort: "date" | reverse %}
+
+  {% for project in projects %}
+    {% assign cur_year = project.date | date: '%Y' %}
+
+    {% if cur_year != last_year %}
+      {% unless forloop.first %}</div>{% endunless %}
+
+      <div class="year-group mb-5">
+        <h2 class="year-header h4 mb-4 pb-2 fw-bold">
+          <i class="fas fa-calendar-check fa-fw me-2 text-muted"></i>{{ cur_year }}
+        </h2>
+      {% assign last_year = cur_year %}
+    {% endif %}
+
+    <div class="project-card d-flex mb-4 p-3 rounded shadow-sm">
+      <div class="me-4 text-center" style="min-width: 50px;">
+        <span class="d-block h5 mb-0 fw-bold">{{ project.date | date: '%d' }}</span>
+        <span class="text-uppercase small text-muted">{{ project.date | date: '%b' }}</span>
+      </div>
+
+      <div class="flex-grow-1">
+        <div class="d-flex justify-content-between align-items-start">
+          <h3 class="h5 mb-1 fw-bold">
+            <span class="project-icon-wrapper me-2 text-muted">
+              {% if project.type == "linux config" %}
+                <i class="fab fa-linux fa-fw"></i>
+              {% elsif project.type == "code" %}
+                <i class="fas fa-code fa-fw"></i>
+              {% elsif project.type == "website" %}
+                <i class="fas fa-globe fa-fw"></i>
+              {% elsif project.type == "cli tool" %}
+                <i class="fas fa-terminal fa-fw"></i>
+              {% elsif project.type == "exploration" %}
+                <i class="fas fa-compass fa-fw"></i>
+              {% elsif project.type == "book" %}
+                <i class="fas fa-book-open fa-fw"></i>
+              {% else %}
+                <i class="fas fa-diagram-project fa-fw"></i>
+              {% endif %}
+            </span>
+            <a href="{{ project.url | relative_url }}" target="_blank" class="project-title-link">
+              {{ project.title }}
+            </a>
+          </h3>
+
+          {% if project.status %}
+            <span class="badge {% if project.status == 'active' %}bg-success{% else %}border text-muted{% endif %} small uppercase">
+              {{ project.status }}
+            </span>
+          {% endif %}
+        </div>
+
+        {% if project.description %}
+          <p class="text-muted small mb-0 mt-1">{{ project.description }}</p>
+        {% endif %}
+      </div>
+    </div>
+
+    {% if forloop.last %}</div>{% endif %}
+  {% endfor %}
+</div>
