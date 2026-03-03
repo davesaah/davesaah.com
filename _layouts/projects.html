@@ -30,18 +30,12 @@ layout: page
         <div class="d-flex justify-content-between align-items-start">
           <h3 class="h5 mb-1 fw-bold">
             <span class="project-icon-wrapper me-2 text-muted">
-              {% if project.type == "linux config" %}
-                <i class="fab fa-linux fa-fw"></i>
-              {% elsif project.type == "code" %}
+              {% if project.type == "code" %}
                 <i class="fas fa-code fa-fw"></i>
-              {% elsif project.type == "website" %}
-                <i class="fas fa-globe fa-fw"></i>
               {% elsif project.type == "cli tool" %}
                 <i class="fas fa-terminal fa-fw"></i>
               {% elsif project.type == "exploration" %}
                 <i class="fas fa-compass fa-fw"></i>
-              {% elsif project.type == "book" %}
-                <i class="fas fa-book-open fa-fw"></i>
               {% else %}
                 <i class="fas fa-diagram-project fa-fw"></i>
               {% endif %}
