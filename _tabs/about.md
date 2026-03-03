@@ -12,6 +12,8 @@ systems-level software. I'm comfortable working close to the metal: Linux
 internals, performance optimization, and writing software that's correct and 
 efficient. I'm available for remote backend engineering contracts.
 
+- Rate: **$30/hr**
+
 ## What I Do
 
 - Backend APIs and services in Go with Postgres.
