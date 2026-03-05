@@ -6,26 +6,22 @@ order: 5
 
 ## TLDR
 
-I build backend systems and developer tools that run reliably behind the scenes.
-My primary stack is Go. I use it for building concurrent APIs, CLI tools, and 
-systems-level software. I'm comfortable working close to the metal: Linux 
-internals, performance optimization, and writing software that's correct and 
-efficient. I'm available for remote backend engineering contracts.
+I build backend systems and developer tools in Go: APIs, CLI tooling, and 
+systems-level software that runs correctly and efficiently. Comfortable working 
+close to the metal. Available for remote backend engineering contracts.
 
-- Rate: **$30/hr**
+**Rate: $30/hr**
 
 ## What I Do
 
-- Backend APIs and services in Go with Postgres.
+- Backend APIs and services in Go with PostgreSQL.
 - CLI tools and developer utilities.
-- Linux systems — setup, configuration, kernel-level debugging.
-- Observability and monitoring with Grafana.
-- Security research on HackerOne.
+- Linux systems: setup, configuration, and kernel-level work.
+- Custom Linux distributions and kernel compilation from source.
 
 ## Ask Me Anything About
 
-- Linux.
-- Navigating the commandline.
+- Linux and the command line.
 - Building CLI tools.
 - Go and backend systems.
 
@@ -36,6 +32,6 @@ efficient. I'm available for remote backend engineering contracts.
 - Not afraid to destroy systems to understand them.
 - I ask too many questions. That is how I learn.
 
-## Checkout my old explorations
+## Old Explorations
 
-Visit [before time](https://github.com/before-time).
+Visit [before-time](https://github.com/before-time).

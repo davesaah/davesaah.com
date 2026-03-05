@@ -1,12 +1,5 @@
 # type: cli tool | code | exploration
 
-- title: Some
-  date: 2026-02-09
-  type: cli tool
-  description: >-
-    Some programming language
-  url: https://codeberg.org/davesaah/some
-
 - title: DaveSaah OS
   date: 2026-02-27
   type: exploration
