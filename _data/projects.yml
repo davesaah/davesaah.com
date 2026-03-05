@@ -1,13 +1,5 @@
 # type: cli tool | code | exploration
 
-- title: Fatch
-  date: 2025-09-24
-  type: code
-  description: >-
-    A robust API for tracking your money, fetching insights on spending
-    and budgeting effectively.
-  url: https://codeberg.org/davesaah/fatch
-
 - title: Some
   date: 2026-02-09
   type: cli tool
