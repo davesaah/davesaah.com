@@ -1,9 +1,5 @@
 #  The contact options.
 
-- type: linkedin
-  icon: "fab fa-linkedin" # icons powered by <https://fontawesome.com/>
-  url: "https://linkedin.com/in/davesaah"
-
 - type: codeberg
   icon: "fab fa-git-alt" # icons powered by <https://fontawesome.com/>
   url: "https://codeberg.org/davesaah"
