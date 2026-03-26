@@ -4,9 +4,6 @@
   icon: "fab fa-git-alt" # icons powered by <https://fontawesome.com/>
   url: "https://codeberg.org/davesaah"
 
-- type: twitter
-  icon: "fa-brands fa-x-twitter"
-
 - type: email
   icon: "fas fa-envelope"
   noblank: true # open link in current tab
