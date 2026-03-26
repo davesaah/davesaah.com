@@ -4,10 +4,11 @@
   icon: "fab fa-git-alt" # icons powered by <https://fontawesome.com/>
   url: "https://codeberg.org/davesaah"
 
+- type: github
+  icon: "fab fa-github"
+
 - type: email
   icon: "fas fa-envelope"
-  noblank: true # open link in current tab
 
 - type: rss
   icon: "fas fa-rss"
-  noblank: true

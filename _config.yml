@@ -26,13 +26,17 @@ description: >- # used by seo meta and the atom feed
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
 url: "https://davesaah.com"
 
+github:
+  username: davesaah
+
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: David Saah
-  email: dave@davesaah.com # change to your email address
+  email: davesaah@gmail.com # change to your email address
   links:
     - https://codeberg.org/davesaah
+    - https://github.com/davesaah
 
 # Site Verification Settings
 webmaster_verifications:
