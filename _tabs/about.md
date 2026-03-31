@@ -4,14 +4,6 @@ icon: fas fa-info-circle
 order: 5
 ---
 
-## TLDR
-
-I build backend systems and developer tools in Go: APIs, CLI tooling, and 
-systems-level software that runs correctly and efficiently. Comfortable working 
-close to the metal. Available for remote backend engineering contracts.
-
-**Rate: $30/hr**
-
 ## What I Do
 
 - Backend APIs and services in Go with PostgreSQL.
