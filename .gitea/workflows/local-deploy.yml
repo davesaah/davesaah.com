@@ -1,0 +1,17 @@
+name: Local Deploy
+run-name: Deploy to local nginx server
+on: [push]
+
+jobs:
+  Explore-Gitea-Actions:
+    runs-on: cachyos-amd64
+    steps:
+      - name: Generate HTML
+        run: |
+          cd ${{ vars.MAIN_REPO }}
+          hugo build --minify --buildDrafts --baseURL ""
+
+      - name: Upload to web server directory
+        run: |
+          cd ${{ vars.MAIN_REPO }}/public
+          cp -r * ${{ vars.SERVER_DIR }}
