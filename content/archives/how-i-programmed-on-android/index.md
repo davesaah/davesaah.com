@@ -1,5 +1,5 @@
 +++
-date = '2025-12-09T12:12:12Z'
+date = '2025-11-27T10:20:21Z'
 draft = true
 title = 'How I Programmed on Android'
 lastmod = '2026-04-09T12:17:12Z'
