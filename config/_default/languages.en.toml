@@ -1,0 +1,10 @@
+languageCode = "en"
+languageName = "English"
+languageDirection = "ltr"
+weight = 1
+
+title = "Documenting Curiousity"
+copyright = "&copy; 2026 David Saah"
+
+[params]
+dateFormat = "2 January 2006"
