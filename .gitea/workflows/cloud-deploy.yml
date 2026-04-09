@@ -1,0 +1,17 @@
+name: Cloud Deploy
+run-name: Deploy to cloudflare workers
+on: [push]
+
+jobs:
+  Explore-Gitea-Actions:
+    runs-on: cachyos-amd64
+    steps:
+      - name: Generate HTML
+        run: |
+          cd ${{ vars.MAIN_REPO }}
+          hugo build --minify --buildDrafts
+
+      - name: Deploy to cloudflare
+        run: |
+          cd ${{ vars.MAIN_REPO }}
+          wrangler deploy
