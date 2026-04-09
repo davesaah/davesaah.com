@@ -1,6 +1,6 @@
 +++
 date = '2025-11-27T10:20:21Z'
-draft = true
+draft = false
 title = 'How I Programmed on Android'
 lastmod = '2026-04-09T12:17:12Z'
 tags = ["postgresql", "linux", "go", "neovim", "cli", "android", "tmux", "termux", "pgweb"]

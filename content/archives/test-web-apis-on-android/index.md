@@ -1,7 +1,7 @@
 +++
 date = '2025-12-01T09:58:46Z'
-draft = true
-title = 'Test Web Apis on Android'
+draft = false
+title = 'Test Web APIs on Android'
 lastmod = '2026-04-09T13:18:26Z'
 tags = ["api", "android", "rest", "web", "testing"]
 +++
