@@ -1,0 +1,14 @@
+### Hugo ###
+# Generated files by hugo
+**/public/
+**/resources/_gen/
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+.env*
+!.env.example
+
+# tmp lock file
+.hugo_build.lock
